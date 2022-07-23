@@ -1,0 +1,274 @@
+body {
+    font-family: "roboto";
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+.header {
+    display: flex;
+    color: rgb(219, 219, 219);
+    background-color: #266867;
+    padding: 20px 270px;
+    justify-content: space-between;
+    font-size: 34px;
+
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.logo img {
+    max-width:70px;
+    max-height:70px;
+    width: auto;
+    height: auto;
+    border-radius:50%; 
+}
+
+.headerlinks {
+    align-self: center;
+}
+
+.headerlinks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    display: flex;
+    font-size: 26px;
+}
+
+.headerlinks a {
+    padding: 0;
+}
+
+.herosection {
+    display: flex;
+    justify-content: center;
+    background-color: #266867;
+    padding: 50px 270px 100px 270px;
+}
+
+
+.herosection .card {
+    background-color: #266867;
+    color: bisque;
+    width: 600px;
+    height: 300px;
+    flex: 1;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.hero {
+    color: #f9faf8;
+    font-size: 52px;
+    font-weight: 900;
+    
+}
+
+.sub-hero {
+    color: #efe7eb;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.herosection button {
+    background-color: #f8bc74;
+    padding: 8px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color:#051821;
+    border-radius: 10px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 44px;
+}
+
+.herosection img {
+    display: block;
+  max-width:600px;
+  max-height:300px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+}
+
+.second {
+    display: flex;
+    flex: 1;
+    
+}
+
+.second .card  {
+    color: #efe7eb;
+}
+
+.box-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 0 80px 0;
+    gap: 50px;
+    
+
+}
+
+.box-section-header {
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caution {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxes img {
+    max-width:180px;
+    max-height:180px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.one {
+    background-color: #f8bc74;
+}
+
+
+.two {
+    background-color: #f8bc74;
+}
+
+.three {
+    background-color: #f8bc74;
+}
+
+.four {
+    background-color: #f8bc74;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    
+
+}
+
+.subtext {
+    word-wrap: normal;
+    width: 180px;
+    text-align: center;
+    color: rgb(131, 131, 131);
+    font-size: 20px;
+}
+
+.quote-section {
+    background-color: #266867;
+}
+
+.quote-container {
+    margin: 100px 0;
+}
+
+.quote {
+    font-size: 40px;
+    color: #efe7eb;
+    font-style: italic;
+    text-align: start;
+    margin: 0 540px 20px 540px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: end;
+    margin: 0 560px;
+    color: #efe7eb;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.card.blue {
+    width: 1200px;
+    height: 150px;
+    background-color: #f8bc74;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-card-blue {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 100px;
+}
+
+.action-call {
+    color: #051821;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-action {
+    color: #051821;
+    font-size: 20px;
+}
+
+.action-section button {
+    background-color: #f8bc74;
+    padding: 8px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color:#051821;
+    border-radius: 10px;
+    border: 3px solid #051821;
+}
+
+.footer {
+    display: flex;
+    color: rgb(219, 219, 219);
+    background-color: #266867;
+    padding: 20px;
+    justify-content: center;
+    font-size: 18px;
+
+}
