@@ -25,7 +25,7 @@ body {
     max-height:70px;
     width: auto;
     height: auto;
-    border-radius:50%; 
+    border-radius:30%; 
 }
 
 .headerlinks {
@@ -102,6 +102,7 @@ a {
   width: auto;
   height: auto;
   margin-left: auto;
+  border-radius: 10px;
 }
 
 .second {
