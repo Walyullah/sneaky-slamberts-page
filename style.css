@@ -118,6 +118,7 @@ a {
 .box-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: white;
     padding: 50px 0 80px 0;
     gap: 50px;
@@ -125,7 +126,7 @@ a {
 
 }
 
-.box-section-header {
+.box-section-header, #etch-a-sketch {
     font-size: 36px;
     font-weight: bold;
     display: flex;
@@ -184,8 +185,40 @@ a {
     width: 180px;
     height: 180px;
     border-radius: 10px;
-    
+}
 
+#sketch {
+    display: flex;
+    flex-direction: column;
+    min-width: 700px;
+}
+
+#sizebtn, #erase {
+    align-self: center;
+    background-color: #f8bc74;
+    padding: 8px 16px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color:#051821;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+:root {
+    --gridColumns: 1;
+}
+  
+#container {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(var(--gridColumns), 1fr);
+    border: 7px solid #f8bc74;
+}
+  
+.grid-item {
+    background-color: #051821;
 }
 
 .subtext {
